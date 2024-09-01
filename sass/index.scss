@@ -1,0 +1,142 @@
+$colors: (
+    "primary":rgba(0, 0, 255),
+    "sky":rgb(114, 224, 251),
+    "danger":red,
+    "success":green,
+    "alert":yellow,
+    "dark":black,
+    "light":rgb(195, 193, 193),
+    "peachy":rgb(255, 64, 96),
+    "pinky":rgb(226, 43, 141),
+    "sunset":rgb(255, 132, 0),
+    "chocolate":rgb(47, 29, 17)
+);
+
+@each $key , $value in $colors {
+    .text-#{$key} {
+        color: $value;
+    }
+
+    .bg-#{$key} {
+        background-color: $value;
+    }
+
+    .border-#{$key} {
+        border-color: $value;
+    }
+}
+
+;
+// //////////////////////////////////////////////////////////////////////////
+$spacing: (
+    "0":0px,
+    "1":10px,
+    "2":20px,
+    "3":30px,
+    "4":40px,
+    "5":50px,
+    "6":60px,
+);
+
+@each $key , $value in $spacing {
+    .p-#{$key} {
+        padding: $value;
+    }
+
+    .ps-#{$key} {
+        padding-left: $value;
+    }
+
+    .pe-#{$key} {
+        padding-right: $value;
+    }
+
+    .px-#{$key} {
+        padding-inline: $value;
+    }
+
+    .py-#{$key} {
+        padding-block: $value;
+    }
+
+    .p-auto {
+        padding: auto;
+    }
+
+    .m-auto {
+        margin: auto;
+    }
+
+    .m-#{$key} {
+        margin: $value;
+    }
+
+    .ms-#{$key} {
+        padding-left: $value;
+    }
+
+    .me-#{$key} {
+        padding-right: $value;
+    }
+
+    .mx-#{$key} {
+        padding-inline: $value;
+    }
+
+    .my-#{$key} {
+        padding-block: $value;
+    }
+}
+
+;
+/////////////////////////////////////////////////////////////////////////////
+$font-size: (
+    "1":12px,
+    "2":14px,
+    "3":16px,
+    "4":18px,
+    "5":20px,
+    "6":22px,
+    "7":24px,
+    "8":26px,
+    "9":28px,
+    "10":30px,
+    "11":32px,
+    "12":34px,
+    "13":36px,
+    "14":38px,
+    "15":40px
+);
+
+
+@each $key, $value in $font-size {
+    .fs-#{$key} {
+        font-size: $value;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+$dimensions: (
+    "1":50px,
+    "2":100px,
+    "3":150px,
+    "4":200px,
+    "5":250px,
+    "6":300px,
+    "7":350px,
+    "8":400px,
+    "9":450px,
+    "10":500px
+);
+
+@each $key, $value in $dimensions {
+    .w-#{$key} {
+        width: $value;
+    }
+
+    .h-#{$key} {
+        height: $value;
+    }
+}
+
+;

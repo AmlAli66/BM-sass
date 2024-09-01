@@ -1,0 +1,609 @@
+.text-primary {
+  color: rgb(0, 0, 255);
+}
+
+.bg-primary {
+  background-color: rgb(0, 0, 255);
+}
+
+.border-primary {
+  border-color: rgb(0, 0, 255);
+}
+
+.text-sky {
+  color: rgb(114, 224, 251);
+}
+
+.bg-sky {
+  background-color: rgb(114, 224, 251);
+}
+
+.border-sky {
+  border-color: rgb(114, 224, 251);
+}
+
+.text-danger {
+  color: red;
+}
+
+.bg-danger {
+  background-color: red;
+}
+
+.border-danger {
+  border-color: red;
+}
+
+.text-success {
+  color: green;
+}
+
+.bg-success {
+  background-color: green;
+}
+
+.border-success {
+  border-color: green;
+}
+
+.text-alert {
+  color: yellow;
+}
+
+.bg-alert {
+  background-color: yellow;
+}
+
+.border-alert {
+  border-color: yellow;
+}
+
+.text-dark {
+  color: black;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.border-dark {
+  border-color: black;
+}
+
+.text-light {
+  color: rgb(195, 193, 193);
+}
+
+.bg-light {
+  background-color: rgb(195, 193, 193);
+}
+
+.border-light {
+  border-color: rgb(195, 193, 193);
+}
+
+.text-peachy {
+  color: rgb(255, 64, 96);
+}
+
+.bg-peachy {
+  background-color: rgb(255, 64, 96);
+}
+
+.border-peachy {
+  border-color: rgb(255, 64, 96);
+}
+
+.text-pinky {
+  color: rgb(226, 43, 141);
+}
+
+.bg-pinky {
+  background-color: rgb(226, 43, 141);
+}
+
+.border-pinky {
+  border-color: rgb(226, 43, 141);
+}
+
+.text-sunset {
+  color: rgb(255, 132, 0);
+}
+
+.bg-sunset {
+  background-color: rgb(255, 132, 0);
+}
+
+.border-sunset {
+  border-color: rgb(255, 132, 0);
+}
+
+.text-chocolate {
+  color: rgb(47, 29, 17);
+}
+
+.bg-chocolate {
+  background-color: rgb(47, 29, 17);
+}
+
+.border-chocolate {
+  border-color: rgb(47, 29, 17);
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.ps-0 {
+  padding-left: 0px;
+}
+
+.pe-0 {
+  padding-right: 0px;
+}
+
+.px-0 {
+  padding-inline: 0px;
+}
+
+.py-0 {
+  padding-block: 0px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.ms-0 {
+  padding-left: 0px;
+}
+
+.me-0 {
+  padding-right: 0px;
+}
+
+.mx-0 {
+  padding-inline: 0px;
+}
+
+.my-0 {
+  padding-block: 0px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.ps-1 {
+  padding-left: 10px;
+}
+
+.pe-1 {
+  padding-right: 10px;
+}
+
+.px-1 {
+  padding-inline: 10px;
+}
+
+.py-1 {
+  padding-block: 10px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-1 {
+  margin: 10px;
+}
+
+.ms-1 {
+  padding-left: 10px;
+}
+
+.me-1 {
+  padding-right: 10px;
+}
+
+.mx-1 {
+  padding-inline: 10px;
+}
+
+.my-1 {
+  padding-block: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.ps-2 {
+  padding-left: 20px;
+}
+
+.pe-2 {
+  padding-right: 20px;
+}
+
+.px-2 {
+  padding-inline: 20px;
+}
+
+.py-2 {
+  padding-block: 20px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.ms-2 {
+  padding-left: 20px;
+}
+
+.me-2 {
+  padding-right: 20px;
+}
+
+.mx-2 {
+  padding-inline: 20px;
+}
+
+.my-2 {
+  padding-block: 20px;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.ps-3 {
+  padding-left: 30px;
+}
+
+.pe-3 {
+  padding-right: 30px;
+}
+
+.px-3 {
+  padding-inline: 30px;
+}
+
+.py-3 {
+  padding-block: 30px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+.ms-3 {
+  padding-left: 30px;
+}
+
+.me-3 {
+  padding-right: 30px;
+}
+
+.mx-3 {
+  padding-inline: 30px;
+}
+
+.my-3 {
+  padding-block: 30px;
+}
+
+.p-4 {
+  padding: 40px;
+}
+
+.ps-4 {
+  padding-left: 40px;
+}
+
+.pe-4 {
+  padding-right: 40px;
+}
+
+.px-4 {
+  padding-inline: 40px;
+}
+
+.py-4 {
+  padding-block: 40px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-4 {
+  margin: 40px;
+}
+
+.ms-4 {
+  padding-left: 40px;
+}
+
+.me-4 {
+  padding-right: 40px;
+}
+
+.mx-4 {
+  padding-inline: 40px;
+}
+
+.my-4 {
+  padding-block: 40px;
+}
+
+.p-5 {
+  padding: 50px;
+}
+
+.ps-5 {
+  padding-left: 50px;
+}
+
+.pe-5 {
+  padding-right: 50px;
+}
+
+.px-5 {
+  padding-inline: 50px;
+}
+
+.py-5 {
+  padding-block: 50px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-5 {
+  margin: 50px;
+}
+
+.ms-5 {
+  padding-left: 50px;
+}
+
+.me-5 {
+  padding-right: 50px;
+}
+
+.mx-5 {
+  padding-inline: 50px;
+}
+
+.my-5 {
+  padding-block: 50px;
+}
+
+.p-6 {
+  padding: 60px;
+}
+
+.ps-6 {
+  padding-left: 60px;
+}
+
+.pe-6 {
+  padding-right: 60px;
+}
+
+.px-6 {
+  padding-inline: 60px;
+}
+
+.py-6 {
+  padding-block: 60px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-6 {
+  margin: 60px;
+}
+
+.ms-6 {
+  padding-left: 60px;
+}
+
+.me-6 {
+  padding-right: 60px;
+}
+
+.mx-6 {
+  padding-inline: 60px;
+}
+
+.my-6 {
+  padding-block: 60px;
+}
+
+.fs-1 {
+  font-size: 12px;
+}
+
+.fs-2 {
+  font-size: 14px;
+}
+
+.fs-3 {
+  font-size: 16px;
+}
+
+.fs-4 {
+  font-size: 18px;
+}
+
+.fs-5 {
+  font-size: 20px;
+}
+
+.fs-6 {
+  font-size: 22px;
+}
+
+.fs-7 {
+  font-size: 24px;
+}
+
+.fs-8 {
+  font-size: 26px;
+}
+
+.fs-9 {
+  font-size: 28px;
+}
+
+.fs-10 {
+  font-size: 30px;
+}
+
+.fs-11 {
+  font-size: 32px;
+}
+
+.fs-12 {
+  font-size: 34px;
+}
+
+.fs-13 {
+  font-size: 36px;
+}
+
+.fs-14 {
+  font-size: 38px;
+}
+
+.fs-15 {
+  font-size: 40px;
+}
+
+.w-1 {
+  width: 50px;
+}
+
+.h-1 {
+  height: 50px;
+}
+
+.w-2 {
+  width: 100px;
+}
+
+.h-2 {
+  height: 100px;
+}
+
+.w-3 {
+  width: 150px;
+}
+
+.h-3 {
+  height: 150px;
+}
+
+.w-4 {
+  width: 200px;
+}
+
+.h-4 {
+  height: 200px;
+}
+
+.w-5 {
+  width: 250px;
+}
+
+.h-5 {
+  height: 250px;
+}
+
+.w-6 {
+  width: 300px;
+}
+
+.h-6 {
+  height: 300px;
+}
+
+.w-7 {
+  width: 350px;
+}
+
+.h-7 {
+  height: 350px;
+}
+
+.w-8 {
+  width: 400px;
+}
+
+.h-8 {
+  height: 400px;
+}
+
+.w-9 {
+  width: 450px;
+}
+
+.h-9 {
+  height: 450px;
+}
+
+.w-10 {
+  width: 500px;
+}
+
+.h-10 {
+  height: 500px;
+}
+
+/*# sourceMappingURL=index.css.map */
